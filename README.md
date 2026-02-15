@@ -2,36 +2,25 @@
 
 ## About
 
-ShopCart is a e-commerce shopping cart application built with Laravel and Herd. It manages products, shopping carts, orders, and customer interactions with customers and admins.
+ShopCart is a simple e-commerce shopping cart application built with Laravel and Herd. It manages products, shopping carts, orders, and customer interactions with customers and admins.
 
 ## Features
 
-- **Product Management**: Browse and search available products
+- **Product Management**: Browse products
 - **Shopping Cart**: Add, update, and manage items in the cart
 - **Checkout System**: Checkout process for customers
-- **Order Management**: Track and manage customer orders
-- **Admin Dashboard**: Admin panel for managing products and viewing orders
-- **User Authentication**: Secure user registration and login
+- **Order Management**: Manage customer orders
+- **Admin Dashboard**: Go to http://localhost:8000/admin/products for the Admin panel to manage products and view orders
 
 ## Installation
 
 1. Clone the repository
 2. Install PHP dependencies: `composer install`
 3. Install JavaScript dependencies: `npm install`
-4. Copy `.env.example` to `.env` and configure your database
+4. Copy `.env.example` and create a `.env` and configure your database
 5. Generate application key: `php artisan key:generate`
 6. Run migrations: `php artisan migrate`
-7. Build frontend assets: `npm run build`
-
-## Usage
-
-- Start the development server: `php artisan serve`
-- Build frontend assets: `npm run dev`
-- Run tests: `php artisan test`
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+7. Start the development server: `php artisan serve`
 
 Use your .env credentials in DBeaver to create a connection and tables:
 
